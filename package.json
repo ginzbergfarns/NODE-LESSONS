@@ -1,0 +1,26 @@
+{
+  "name": "node-lessons",
+  "version": "1.0.0",
+  "description": "Raw node js",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "lessons",
+    "js"
+  ],
+  "author": "Olex",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "pug": "^2.0.3"
+  }
+}
